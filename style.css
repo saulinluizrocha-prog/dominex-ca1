@@ -2,21 +2,21 @@
    GLOBAL RESET, FONTS & VARIABLES
    ========================================== */
 :root {
-    --primary: #17582F;
-    --primary-light: #2A7C49;
-    --primary-dark: #0E3B1E;
+    --primary: #1A365D;
+    --primary-light: #2B6CB0;
+    --primary-dark: #0F172A;
     --accent: #FFD701;
     --accent-dark: #CCA500;
     --dark: #121212;
-    --text: #2D312E;
-    --text-light: #606662;
-    --bg-light: #F4FAF6;
-    --bg-grey: #EDF3EF;
+    --text: #1E293B;
+    --text-light: #64748B;
+    --bg-light: #F0F4F8;
+    --bg-grey: #E2E8F0;
     --white: #FFFFFF;
     --red: #D93838;
     --red-dark: #A61C1C;
     --shadow: 0 8px 30px rgba(0,0,0,0.06);
-    --shadow-hover: 0 16px 40px rgba(23,88,47,0.12);
+    --shadow-hover: 0 16px 40px rgba(26,54,93,0.12);
     --radius: 16px;
     --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
@@ -192,7 +192,7 @@ ul {
 .btn-order-nav:hover {
     background: var(--primary);
     color: var(--white) !important;
-    box-shadow: 0 4px 15px rgba(23, 88, 47, 0.3);
+    box-shadow: 0 4px 15px rgba(26, 54, 93, 0.3);
     transform: translateY(-2px);
 }
 
@@ -204,7 +204,7 @@ ul {
    HERO SECTION
    ========================================== */
 .hero {
-    background: linear-gradient(135deg, var(--bg-light) 0%, #E2F0E7 100%);
+    background: linear-gradient(135deg, var(--bg-light) 0%, #D9E2EC 100%);
     padding: 60px 0 80px;
     position: relative;
     overflow: hidden;
@@ -622,7 +622,7 @@ ul {
 
 .testimonial-card {
     background: var(--bg-light);
-    border: 1px solid rgba(23,88,47,0.15);
+    border: 1px solid rgba(26,54,93,0.15);
     border-radius: var(--radius);
     padding: 24px;
     text-align: left;
@@ -899,7 +899,7 @@ ul {
 }
 
 .single-offer-wrapper:hover {
-    box-shadow: 0 20px 50px rgba(23,88,47,0.18);
+    box-shadow: 0 20px 50px rgba(26,54,93,0.18);
 }
 
 .single-offer-badge {
@@ -1033,7 +1033,7 @@ ul {
 
 /* Pricing Panel Right side */
 .offer-pricing-panel {
-    background: #F4FAF6;
+    background: var(--bg-light);
     border-radius: 12px;
     padding: 20px;
     flex-grow: 1;
@@ -1157,7 +1157,7 @@ ul {
     background: var(--bg-light);
     padding: 80px 0;
     text-align: center;
-    border-top: 1px solid rgba(23,88,47,0.1);
+    border-top: 1px solid rgba(26,54,93,0.1);
 }
 
 .guarantee-inner {
@@ -1200,7 +1200,7 @@ ul {
     font-size: 16px;
     padding: 14px 36px;
     border-radius: 50px;
-    box-shadow: 0 4px 15px rgba(23, 88, 47, 0.3);
+    box-shadow: 0 4px 15px rgba(26, 54, 93, 0.3);
     transition: var(--transition);
 }
 
